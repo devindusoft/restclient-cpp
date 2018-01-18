@@ -14,6 +14,7 @@
 #include <map>
 #include <stdexcept>
 #include <utility>
+#include <stdint.h>
 
 #include "restclient-cpp/restclient.h"
 #include "restclient-cpp/helpers.h"
