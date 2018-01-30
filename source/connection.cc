@@ -383,7 +383,7 @@ RestClient::Connection::performCurlRequest(const std::string& uri) {
         ret.body = curl_easy_strerror(res);
         break;
       default:
-        ret.body = "Failed to query.";
+        ret.body = curl_easy_strerror(res);
         ret.code = -1;
     }
   } else {
